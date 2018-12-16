@@ -1,0 +1,115 @@
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 48px;
+  padding: 4.8rem;
+ 
+  text-align: center;
+}
+.soc li {
+  display: inline-block;
+  margin: 12px;
+  margin: 1.2rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  position: relative;
+  height: 96px;
+  height: 9.6rem;
+  width: 96px;
+  width: 9.6rem;
+}
+.soc svg {
+  height: 100%;
+  width: 100%;
+}
+.soc em {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: -0.75em;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+h1{
+  text-align: center;
+}
+.icon-13:hover {
+  background: #4169E1;
+  border-radius: 100%;
+  color: #0e1a25;
+  fill: #0e1a25;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+.icon-17 {
+  color: #2691d9;
+  fill: #2691d9;
+}
+.icon-17:hover {
+  background: #4169E1;
+  border-radius: 100%;
+  color: #0e1a25;
+  fill: #0e1a25;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+.glyphicon {
+    font-size: 30px;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+.container1 img{
+ width: 120px;
+}
+.container2 img{
+    width: 120px;
+}
+.navbar-brand {
+    font-size: 34px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #222;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 28px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
